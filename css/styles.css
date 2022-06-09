@@ -1,0 +1,260 @@
+/* ПАЛИТРА ТЕКСТА */
+
+/* LOGO: Studio - #000000 */
+/* голубой LOGO: Web и ссылок - #2196F3 */
+/* черный ссылок, заголовков - #212121 */
+/* белый h1 и текст кнопки - #FFFFFF */
+/* серый текста (ОСНОВНОЙ) и номера телефона - #757575 */
+/* нижние ссылки - rgb(0, 0, 0, 0.6); */
+
+/* цвет фона ПЕРВИЧНЫЙ - #FFFFFF */
+/* цвет фона ВТОРИЧНЫЙ - #E5E5E5 */
+/* цвет фона ГЕРОЯ - #2F303A */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #ffffff;
+}
+
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* убираю подчеркивание ссылки */
+.logo {
+    text-decoration: none;   
+    font-family: Raleway, sans-serif;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-align: left;
+    vertical-align: top;
+}
+
+.logo-blue {
+    color: var(--accent-color); 
+}
+
+.logo-black {
+    color: #000000;
+}
+
+.logo-white {
+    color: var(--primary-bg-color);
+    background-color: #000000;
+}
+
+/* убираю точечки списков (ГЛОБАЛЬНО)*/
+ul {
+    list-style: none;
+}
+
+/* 3 ссылки в header>nav>ul */
+.site-nav .link {
+    /* color: var(--title-text-color); */
+    letter-spacing: 0.02em;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.15;
+    text-align: left;
+    vertical-align: top;
+
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Эффект текущей страницы */
+.site-nav .link.current {
+    color: var(--accent-color);
+    letter-spacing: 0.02em;
+}
+
+
+/* контакты в Header */
+.site-contacts {
+    color: var(--primary-text-color);
+    letter-spacing: 0.02em;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.15;
+    text-align: left;
+    vertical-align: top;
+
+    text-decoration: none;    
+}
+
+.site-contacts:hover,
+.site-contacts:focus {
+    color: var(--accent-color);
+}
+
+/* стили заголовкоВ секций */
+.section-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    vertical-align: top;
+}
+
+/* стили Блок ГЕРОЙ */
+.hero-title {
+    color: var(--primary-bg-color);
+    background-color: #2F303A;
+    letter-spacing: 0.06em;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    vertical-align: top;
+}
+
+/* стили блока Особенности (Features) */
+.feature-list .title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* стили блока Чем мы занимаемся */
+.work-list .title {
+    color: var(--primary-bg-color);
+} 
+
+/* стили залоговков в блоке Наша команда */
+.team-title {
+    color: var(--title-text-color);
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    vertical-align: top;
+}
+
+/* стили текста в блоке Наша команда */
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+
+/* стили карточек из Портфолио */
+.cards-list .link {
+    text-decoration: none;
+}
+
+.cards-list .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 0.06em;
+}
+
+.cards-list .text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+/* Button */
+.button {   
+    display: inline-block;
+    letter-spacing: 0.06em;
+    
+    font-family: inherit;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.button.primary{
+    background-color: var(--accent-color);
+    color: var(--primary-bg-color);
+}
+
+.button.secondary{
+    background-color: #F5F4FA;
+    color: var(--title-text-color);
+}
+
+.button.portfolio-primary {
+    background-color: var(--accent-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+}
+
+.button.portfolio-secondary {
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+}
+
+
+
+
+/* стили адресного блока в футере */
+.contacts-address {
+    color: var(--primary-bg-color);
+    background-color: var(--title-text-color);
+    font-style: normal;
+}
+
+.contacts-numbers {
+    color: rgb(0, 0, 0, 0.6);
+    font-style: normal;
+}
+
+.contacts-numbers:hover,
+.contacts-numbers:focus {
+    color: var(--accent-color);
+}
+
+
+/* прячу ненужные заголовки */
+.title-hide {
+    display: none;
+}

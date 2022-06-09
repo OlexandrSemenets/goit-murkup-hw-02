@@ -62,8 +62,7 @@ ul {
 
 /* 3 ссылки в header>nav>ul */
 .site-nav .link {
-    /* color: var(--title-text-color); */
-    letter-spacing: 0.02em;
+    color: var(--title-text-color);     letter-spacing: 0.02em;
 
     font-weight: 500;
     font-size: 16px;
